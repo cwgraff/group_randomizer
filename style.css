@@ -56,6 +56,10 @@ button.refresh {
 	font-weight: bolder;
 }
 
+button.active {
+	background-color: #555555;
+}
+
 .button-holder, .refresh-holder {
 	text-align: center;
 }

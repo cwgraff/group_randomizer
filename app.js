@@ -41,6 +41,8 @@ function buildButtons(){
 //assigns a group number for use by the refresh button, based upon which group button was clicked
 function groupClick(){
 	currentGroupNum = $(this).attr("id");
+	$('.group-maker').removeClass('active');
+	$(this).addClass('active');
 }
 
 /* Recreates a temporary array of people as a copy of permanentArray.  Iterates through each group-container, adding random
